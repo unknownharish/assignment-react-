@@ -113,7 +113,7 @@ export default function Add_details_form({ setmodal }) {
                 {/* header */}
                 <div className='flex justify-around w-full my-3'>
 
-                    {showprint ? <button onClick={() => printData()} className='absolute top-5 left-[31%]  bg-yellow-400 hover:bg-yellow-500 cursor-pointer w-20 h-6 text-center rounded-md'>PRINT</button>
+                    {showprint ? <button onClick={() => printData()} className='  bg-yellow-400 hover:bg-yellow-500 cursor-pointer w-20 h-6 text-center rounded-md'>PRINT</button>
                         : <button disabled={disabled} onClick={() => saveData()} className='bg-green-400 hover:bg-green-500 cursor-pointer w-20 h-6 text-center rounded-md disabled:bg-gray-300'>SAVE</button>
                     }
 

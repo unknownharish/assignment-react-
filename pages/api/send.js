@@ -22,9 +22,9 @@ export default async function handler(req, res) {
 
         }
 
-        // let obj = await Info.insertMany([{ ...insertedObj }]);
-        // res.json({ obj, yourObj: insertedObj })
-        res.json({ insertedObj })
+        let obj = await Info.insertMany([{ ...insertedObj }]);
+        res.json({ obj, yourObj: insertedObj })
+        // res.json({ insertedObj })
     }
     else {
         res.json({ msg: 'invalid function request' })
