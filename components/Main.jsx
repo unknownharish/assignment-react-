@@ -3,7 +3,7 @@ import Add_details_form from './Add_details_form'
 
 export default function Main() {
 
-    const [modal, setmodal] = useState(true)
+    const [modal, setmodal] = useState(false)
 
 
     return (
